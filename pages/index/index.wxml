@@ -1,4 +1,4 @@
- <view class='body'>
+<view class='body'>
     <navigator class='cell' wx:for="{{gameData.data}}" 
     url="../room/room?game_name={{item.game_name}}&cate_id={{item.cate_id}}">
         <image class='icon' src="{{item.game_icon}}" />
